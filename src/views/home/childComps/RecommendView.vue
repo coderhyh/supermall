@@ -23,7 +23,7 @@ export default {
 };
 </script>
 
-<style lang="less">
+<style scoped lang="less">
 .recommend {
   display: flex;
   justify-content: space-evenly;
@@ -37,6 +37,7 @@ export default {
     }
     p{
       text-align: center;
+      font-size: .12rem;
     }
   }
 }

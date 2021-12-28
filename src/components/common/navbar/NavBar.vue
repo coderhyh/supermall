@@ -18,13 +18,13 @@ export default {
 };
 </script>
 
-<style lang="less">
+<style lang="less" scoped>
 .nav-bar {
   display: flex;
   line-height: 0.44rem;
   height: 0.44rem;
   text-align: center;
-  box-shadow: 0 1px 10px rgba(204, 204, 204, 0.514);
+  box-shadow: 0 1px .1rem rgba(204, 204, 204, 0.514);
   position: fixed;
   left: 0;
   right: 0;
@@ -33,7 +33,7 @@ export default {
 
   .left,
   .right {
-    width: 60px;
+    width: .6rem;
   }
   .center {
     flex: 1;

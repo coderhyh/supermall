@@ -25,15 +25,6 @@ export default {
       if (this.curIndex != index) {
         this.curIndex = index;
         this.$emit("tabClick", index);
-
-        // const wrapper = this.$parent.$refs.wrapper;
-        // wrapper.scrollTo(0, this.$el.offsetTop)
-        
-        // const refs = this.$parent.$refs;
-        // const navBar = refs.navBar.$el.offsetHeight;
-        // const tabControl = refs.tabControl.$el.offsetHeight;
-        // const goodsList = refs.goodsList.$el.offsetTop;
-        // window.scrollTo(0, goodsList - (navBar + tabControl));
       }
     },
   },

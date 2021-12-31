@@ -25,11 +25,6 @@ export default {
   height: 0.44rem;
   text-align: center;
   box-shadow: 0 1px .1rem rgba(204, 204, 204, 0.514);
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  z-index: 99999;
 
   .left,
   .right {
